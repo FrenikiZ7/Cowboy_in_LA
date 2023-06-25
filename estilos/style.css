@@ -154,13 +154,13 @@ section#lyrics {
 
 margin-left: -9vh;  
 margin-top: 25px;
-height: 1650px;
+height: 1750px;
 position: relative;
 width: 500px;
 /*left: 330px; */
 left: 17vw;
 top: 50px;
-background-color: aquamarine;
+overflow-y: hidden;
 }
 
 section#lyrics p {
@@ -188,7 +188,8 @@ transition: background-color 0.5s, border 1s;
 /*-----------------------------Footer-----------------------------*/ 
 footer {
   background-color: #EB7D66;
-  margin-top: 15px;
+  margin-top: -60px;
+  position: relative;
   }
 
   footer p#linha {
