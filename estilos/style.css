@@ -188,7 +188,6 @@ transition: background-color 0.5s, border 1s;
 /*-----------------------------Footer-----------------------------*/ 
 footer {
   background-color: #EB7D66;
-
   margin-top: 15px;
   }
 
@@ -204,7 +203,7 @@ footer {
   font-size: 90px;
 
   position: relative;
-  left: 540px;
+  left:20vw; 
   margin: 70px 0px 50px 0px;
   }
   
@@ -214,9 +213,11 @@ footer {
   font-size: 19px;
 
   position: relative;
-  left: 330px; 
+  left:3vw; 
   }
   
   section#about p {
   margin: 30px 0px 30px 0px; 
   }
+
+
