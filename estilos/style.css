@@ -154,7 +154,7 @@ section#lyrics {
 
 margin-left: -8vh;  
 margin-top: 25px;
-height: 1950px;
+margin-bottom: 150px;
 position: relative;
 width: 500px;
 /*left: 330px; */
@@ -188,7 +188,7 @@ transition: background-color 0.5s, border 1s;
 /*-----------------------------Footer-----------------------------*/ 
 footer {
   background-color: #EB7D66;
-  margin-top: -50px;
+
   }
 
   footer p#linha {
