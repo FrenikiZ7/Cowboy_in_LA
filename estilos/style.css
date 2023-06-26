@@ -70,7 +70,7 @@ color: black;
 text-decoration: none;
 font-size: 14px;
 
-display: inline-block; 
+display: inline; 
 position: relative;
 top: -8px;
 margin-left: 23px;
@@ -93,7 +93,7 @@ background-image: linear-gradient(#EB7D66,#E39B79 );
 
 font-family: programme;
 position:relative;
-height: 388px;
+height: 389px;
 }
 
 img.mamasboy {
@@ -123,7 +123,7 @@ margin-bottom: 10px;
 
 div#cowboy p {
 color: black;
-font-size: 17px;
+font-size: 18px;
 
 margin-bottom: 30px;
 line-height: 23px;
@@ -131,7 +131,7 @@ line-height: 23px;
 
 div#cowboy p#producedby {
 margin-top: 0%; 
-margin-bottom: 8%;
+margin-bottom: 40px;
 }
 
 div#cowboy p#albumresumo {
@@ -149,13 +149,15 @@ font-size: 15px;
 /*-----------------------------Página princial > Lyrics-----------------------------*/ 
 section#lyrics {
 
-margin-left: -8vh;  
+margin-left: -8vw;
 margin-top: 25px;
+padding-right: 5px;
+padding-left: 2px;
 margin-bottom: 150px;
 position: relative;
-width: 500px;
+max-width: 500px;
 /*left: 330px; */
-left: 17vw;
+left: 19vw;
 top: 50px;
 overflow-y: hidden;
 }
@@ -167,11 +169,11 @@ section#lyrics p {
  border-radius: 10px;
  
  font-family:Programme-Regular;
- font-size: 19px;
+ font-size: 21px;
  font-weight: 300;
  line-height: 27px;
  max-width: 90vw;
- padding: 10px 5px 10px 5px;
+ padding: 20px 10px 20px 5px;
 }
 
 section#lyrics p:hover {
@@ -206,14 +208,15 @@ footer {
   section#about {
   font-family: Programme;
   line-height: 27px;
-  font-size: 19px;
+  font-size: 21px;
 
   position: relative;
   left:3vw; 
   }
   
   section#about p {
-  margin: 30px 0px 30px 0px; 
+  margin: 30px 0px 30px 0px;
+  padding-right: 40px;
   }
 
 
