@@ -151,8 +151,7 @@ section#lyrics {
 
 margin-left: -8vw;
 margin-top: 25px;
-padding-right: 5px;
-padding-left: 2px;
+padding-right:21vw;
 margin-bottom: 150px;
 position: relative;
 max-width: 500px;
@@ -165,21 +164,23 @@ overflow-y: hidden;
 section#lyrics p {
  color: rgba(0, 0, 0, 0.714);
  background-color: transparent;
- border: 2px solid transparent;
+ border: 3px solid transparent;
  border-radius: 10px;
  
  font-family:Programme-Regular;
  font-size: 21px;
  font-weight: 300;
  line-height: 27px;
- max-width: 90vw;
- padding: 20px 10px 20px 5px;
+ max-width: 100%;
+ margin-bottom: 30px;
+ padding: 5px 10px 5px 5px;
+
 }
 
 section#lyrics p:hover {
 background-color: #EB7D66;
-border: 2px solid black;
-
+border: 3px solid black;
+box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.645);
 transition: background-color 0.5s, border 1s;
 }
 
@@ -193,7 +194,7 @@ footer {
   background-color: black;  
   border: -1px;
 
-  height: 30px;
+  height: 45px;
   }
   
   footer h1{
@@ -201,7 +202,7 @@ footer {
   font-size: 90px;
 
   position: relative;
-  left:20vw; 
+  left:9vw; 
   margin: 70px 0px 50px 0px;
   }
   
